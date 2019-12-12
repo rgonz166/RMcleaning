@@ -17,7 +17,7 @@ nav ul li a {
 }
 
 /* mobile responsive navbar */
-@media (max-width:768px)
+@media (max-width: 576px)
 {
     ul {
         width: 100%;
@@ -28,8 +28,16 @@ nav ul li a {
         display: block;
         text-align: center;
     }
+
+    .landing {
+        background-position: center center; 
+        background-size: cover;
+        
+       
+    }
     
 }
+
 
 
 
