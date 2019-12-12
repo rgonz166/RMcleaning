@@ -41,3 +41,15 @@ img {
     height: 100vh;
     background-position: center center; 
 }
+
+.banner1 h2 {
+    font-size: 4em;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.banner1 h3 {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 10%;
+}
