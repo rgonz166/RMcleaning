@@ -34,6 +34,7 @@ img {
     display: none;
 }
 
+/* begin landing page */
 .landing {
     background-image: url('../images/room2.jpg');
     background-repeat: no-repeat;
@@ -42,6 +43,7 @@ img {
     background-position: center center; 
 }
 
+/* banner within landing page */
 .banner1 h2 {
     font-size: 4em;
     text-align: center;
@@ -52,4 +54,19 @@ img {
     font-size: 2em;
     text-align: center;
     padding-bottom: 10%;
+}
+
+@media (max-width:767px) {
+    .banner1 h2 {
+        font-size: 3em;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .banner1 h3 {
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
 }
