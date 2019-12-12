@@ -33,3 +33,10 @@ img {
 .hide {
     display: none;
 }
+
+.landing {
+    background-image: url('../images/room2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
