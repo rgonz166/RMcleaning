@@ -9588,6 +9588,10 @@ hr.light {
   padding: 8rem 0;
 }
 
+.modal-bg {
+  background-color: #5b811cb9;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
