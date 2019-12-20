@@ -9694,13 +9694,10 @@ header.masthead h1 {
   }
 }
 
-#gallery .container-fluid {
-  max-width: 1920px;
-}
-
 #gallery .container-fluid .gallery-box {
   position: relative;
   display: block;
+  height: 100%;
 }
 
 #gallery .container-fluid .gallery-box .gallery-box-caption {
@@ -9729,6 +9726,11 @@ header.masthead h1 {
 
 #gallery .container-fluid .gallery-box .gallery-box-caption .project-name {
   font-size: 1.2rem;
+}
+
+#gallery .container-fluid .gallery-box .img-fluid {
+  height: 100%;
+  width: 100%;
 }
 
 #gallery .container-fluid .gallery-box:hover .gallery-box-caption {
