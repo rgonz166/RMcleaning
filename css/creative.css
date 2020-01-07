@@ -9631,6 +9631,9 @@ hr.light {
   #mainNav .navbar-brand:hover {
     color: #fff;
   }
+  #mainNav .navbar-brand .brand-image {
+    width: 200px;
+  }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
@@ -9650,6 +9653,9 @@ hr.light {
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #f77626;
+  }
+  #mainNav.navbar-scrolled .navbar-brand .brand-image {
+    width: 150px;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;

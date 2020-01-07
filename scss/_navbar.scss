@@ -35,6 +35,9 @@
       &:hover {
         color: $white;
       }
+      .brand-image{
+          width: 200px;
+        }
     }
     .navbar-nav {
       .nav-item {
@@ -60,6 +63,9 @@
         color: $gray-900;
         &:hover {
           color: $primary;
+        }
+        .brand-image{
+          width: 150px;
         }
       }
       .navbar-nav {
