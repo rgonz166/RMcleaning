@@ -9677,7 +9677,11 @@ header.masthead {
 
 header.masthead h1 {
   font-size: 2.25rem;
-  text-shadow: -0.5px -0.5px 0 #222222, 0.5px -0.5px 0 #222222, -0.5px 0.5px 0 #222222, 0.5px 0.5px 0 #222222;
+  text-shadow: -1px -1px 0 #222222, 1px -1px 0 #222222, -1px 1px 0 #222222, 1px 1px 0 #222222;
+}
+
+header.masthead .mast-text {
+  text-shadow: 1px 1px #242424;
 }
 
 @media (min-width: 992px) {
