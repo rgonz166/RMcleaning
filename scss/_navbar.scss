@@ -7,6 +7,9 @@
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
     color: $gray-900;
+    .brand-image{
+      width: 50px;
+    }
   }
   .navbar-nav {
     .nav-item {
@@ -35,6 +38,9 @@
       &:hover {
         color: $white;
       }
+      .brand-image{
+          width: 200px;
+        }
     }
     .navbar-nav {
       .nav-item {
@@ -60,6 +66,9 @@
         color: $gray-900;
         &:hover {
           color: $primary;
+        }
+        .brand-image{
+          width: 100px;
         }
       }
       .navbar-nav {

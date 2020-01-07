@@ -9604,6 +9604,10 @@ hr.light {
   color: #212529;
 }
 
+#mainNav .navbar-brand .brand-image {
+  width: 50px;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
   font-family: "Abril Fatface", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -9631,6 +9635,9 @@ hr.light {
   #mainNav .navbar-brand:hover {
     color: #fff;
   }
+  #mainNav .navbar-brand .brand-image {
+    width: 200px;
+  }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
@@ -9650,6 +9657,9 @@ hr.light {
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #f77626;
+  }
+  #mainNav.navbar-scrolled .navbar-brand .brand-image {
+    width: 100px;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
@@ -9671,7 +9681,11 @@ header.masthead {
 
 header.masthead h1 {
   font-size: 2.25rem;
-  text-shadow: -0.5px -0.5px 0 #222222, 0.5px -0.5px 0 #222222, -0.5px 0.5px 0 #222222, 0.5px 0.5px 0 #222222;
+  text-shadow: -1px -1px 0 #222222, 1px -1px 0 #222222, -1px 1px 0 #222222, 1px 1px 0 #222222;
+}
+
+header.masthead .mast-text {
+  text-shadow: 1px 1px #242424;
 }
 
 @media (min-width: 992px) {
