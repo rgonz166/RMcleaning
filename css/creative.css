@@ -9592,20 +9592,31 @@ hr.light {
   background-color: #f8eadb;
 }
 
+.service-img {
+  min-width: 100%;
+  max-width: 350px;
+}
+
+.service-spacing {
+  margin: 10px 0px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.service-spacing.text-margin {
+  margin: auto;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
   transition: background-color 0.2s ease;
 }
 
-#mainNav .navbar-brand {
-  font-family: "Abril Fatface", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  color: #212529;
-}
-
-#mainNav .navbar-brand .brand-image {
-  width: 130px;
+#mainNav .nav-logo {
+  width: 80px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -9629,14 +9640,14 @@ hr.light {
     box-shadow: none;
     background-color: transparent;
   }
+  #mainNav .nav-logo {
+    width: 100px;
+  }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
-  }
-  #mainNav .navbar-brand .brand-image {
-    width: 130px;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
@@ -9658,7 +9669,7 @@ hr.light {
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #f77626;
   }
-  #mainNav.navbar-scrolled .navbar-brand .brand-image {
+  #mainNav.navbar-scrolled .navbar-brand .nav-logo {
     width: 100px;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
@@ -9672,7 +9683,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(20, 19, 19, 0.027451) 0%, rgba(20, 19, 19, 0.027451) 100%), url("../img/room.jpg");
+  background: linear-gradient(to bottom, rgba(68, 68, 68, 0.4) 0%, rgba(68, 68, 68, 0.4) 100%), url("../img/room.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -9685,7 +9696,7 @@ header.masthead h1 {
 }
 
 header.masthead .mast-text {
-  text-shadow: 1px 1px #242424;
+  text-shadow: 2px 2px #242424;
 }
 
 @media (min-width: 992px) {
@@ -9700,7 +9711,6 @@ header.masthead .mast-text {
   }
   header.masthead h1 {
     font-size: 3rem;
-    font-family: abril-fatface;
   }
 }
 
@@ -9710,10 +9720,13 @@ header.masthead .mast-text {
   }
 }
 
+#gallery .container-fluid {
+  max-width: 1920px;
+}
+
 #gallery .container-fluid .gallery-box {
   position: relative;
   display: block;
-  height: 100%;
 }
 
 #gallery .container-fluid .gallery-box .gallery-box-caption {
@@ -9742,11 +9755,6 @@ header.masthead .mast-text {
 
 #gallery .container-fluid .gallery-box .gallery-box-caption .project-name {
   font-size: 1.2rem;
-}
-
-#gallery .container-fluid .gallery-box .img-fluid {
-  height: 100%;
-  width: 100%;
 }
 
 #gallery .container-fluid .gallery-box:hover .gallery-box-caption {

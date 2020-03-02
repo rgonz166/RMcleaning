@@ -44,5 +44,19 @@ hr.light {
   background-color: $light;
 }
 
+.service-img{
+  min-width: 100%;
+  max-width: 350px;
+}
 
+.service-spacing{
+  margin: 10px 0px;
+}
 
+.center-text{
+  text-align: center;
+}
+
+.service-spacing.text-margin{
+  margin: auto;
+}
