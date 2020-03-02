@@ -9599,6 +9599,8 @@ hr.light {
 
 .service-spacing {
   margin: 10px 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .center-text {
