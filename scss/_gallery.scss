@@ -1,11 +1,10 @@
 // Styling for the gallery section
 #gallery {
   .container-fluid {
+    max-width: 1920px;
     .gallery-box {
       position: relative;
       display: block;
-      height: 100%;
-
       .gallery-box-caption {
         display: flex;
         align-items: center;
@@ -34,11 +33,6 @@
         .project-name {
           font-size: 1.2rem;
         }
-      }
-      .img-fluid {
-          // object-fit: contain !important; 
-          height: 100%; 
-          width: 100%;
       }
       &:hover {
         .gallery-box-caption {

@@ -4,7 +4,7 @@ header.masthead {
   padding-bottom: calc(10rem - #{$navbar-height});
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
-  background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('../img/room.jpg');
+  background: linear-gradient(to bottom, #{fade-out(#444, .6)} 0%,#{fade-out(#444, .6)} 100%),url('../img/room.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12,13 +12,13 @@ header.masthead {
   h1 {
     font-size: 2.25rem;
     text-shadow:
-    -1px -1px 0 rgb(34, 34, 34),
-		1px -1px 0 rgb(34, 34, 34),
-		-1px 1px 0 rgb(34, 34, 34),
-		1px 1px 0 rgb(34, 34, 34);
+      -1px -1px 0 rgb(34, 34, 34),
+      1px -1px 0 rgb(34, 34, 34),
+      -1px 1px 0 rgb(34, 34, 34),
+      1px 1px 0 rgb(34, 34, 34);
   }
   .mast-text{
-    text-shadow: 1px 1px #242424;
+    text-shadow: 2px 2px #242424;
   }
   @include media-breakpoint-up(lg) {
     height: 100vh;
@@ -30,7 +30,6 @@ header.masthead {
     }
     h1 {
       font-size: 3rem;
-      font-family: abril-fatface;
     }
   }
   @include media-breakpoint-up(xl) {
